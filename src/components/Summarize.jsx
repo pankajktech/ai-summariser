@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 
 import { useLazyGetSummaryQuery } from "../Services/article";
 
-import { linkIcon } from "../assets";
-
 const Summarize = () => {
   const [article, setArticle] = useState({
     url: "",
@@ -43,11 +41,6 @@ const Summarize = () => {
           onSubmit={handleSubmit}
           className="relative flex justify-center items-center w-full"
         >
-          <img
-            src={linkIcon}
-            alt=""
-            className="absolute left-0 mt-1 ml-3 w-5"
-          />
           <input
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
@@ -58,7 +51,7 @@ const Summarize = () => {
           />
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 -ml-24 rounded-r"
           >
             Summarize
           </button>
