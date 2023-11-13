@@ -17,7 +17,7 @@ const Hero = () => {
           >
             <img
               src="https://pankajktech.vercel.app/assets/about-3c428769.webp"
-              className="h-8 w-8"
+              className="h-8 w-8 rounded-full"
             />
           </a>
           <a
