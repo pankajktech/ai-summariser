@@ -89,7 +89,7 @@ const Summarize = () => {
                   Article <span className="blue_gradient">Summary</span>
                 </h2>
                 <div className="summary_box">
-                  <p className="font-inter font-normal text-gray-700 text-sm">
+                  <p className="font-inter text-justify font-normal text-gray-700 text-sm">
                     {article.summary}
                   </p>
                 </div>
