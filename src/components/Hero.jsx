@@ -16,7 +16,7 @@ const Hero = () => {
             className="bg-blue-100 hover:bg-blue-200 text-xl text-black flex items-center gap-2 font-bold p-1 rounded-full"
           >
             <img
-              src="https://pankajthakur.netlify.app/assets/profile-pic-8727f2af.webp"
+              src="https://pankajktech.vercel.app/assets/about-3c428769.webp"
               className="h-8 w-8"
             />
           </a>
