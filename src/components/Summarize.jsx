@@ -35,7 +35,7 @@ const Summarize = () => {
   };
 
   return (
-    <section className="w-full mt-16 max-w-xl">
+    <section className="w-full mt-10 max-w-xl">
       <div className="flex flex-col w-full gap-3">
         <form
           onSubmit={handleSubmit}
@@ -47,11 +47,11 @@ const Summarize = () => {
             type="url"
             required
             placeholder="Enter Article URL"
-            className="peer url_input"
+            className="peer url_input transition-all duration-300"
           />
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 -ml-24 rounded-r"
+            className="bg-blue-500 hover:bg-black transition-all duration-300 text-white font-bold py-2 px-2 -ml-24 rounded-r-full"
           >
             Summarize
           </button>

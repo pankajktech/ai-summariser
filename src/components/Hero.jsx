@@ -4,9 +4,9 @@ import logo from "../assets/logo.png";
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col ">
-      <nav className="flex justify-between items-center w-full mb-10 pt-5 ">
+      <nav className="flex justify-around items-center w-full mb-10 pt-5 ">
         <div className="flex items-center gap-3">
-          <img src={logo} alt="logo" className="h-10" />
+          <img src={logo} alt="logo" height="40" width="40" />
         </div>
         <div className="flex items-center gap-3">
           <a
@@ -16,8 +16,8 @@ const Hero = () => {
             className="bg-blue-100 hover:bg-blue-200 text-xl text-black flex items-center gap-2 font-bold p-1 rounded-full"
           >
             <img
-              src="https://pankajktech.vercel.app/assets/about-3c428769.webp"
-              className="h-8 w-8 rounded-full"
+              src="https://pankajthakur.netlify.app/assets/profile-pic-8727f2af.webp"
+              className="h-8 w-8"
             />
           </a>
           <a
