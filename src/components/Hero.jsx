@@ -8,30 +8,21 @@ const Hero = () => {
         <div className="flex items-center gap-3">
           <img src={logo} alt="logo" height="40" width="40" />
         </div>
-        <div className="flex items-center gap-3">
-          <a
-            href="https://pankajthakur.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="bg-blue-100 hover:bg-blue-200 text-xl text-black flex items-center gap-2 font-bold p-1 rounded-full"
-          >
-            <img
-              src="https://pankajthakur.netlify.app/assets/profile-pic-8727f2af.webp"
-              className="h-8 w-8"
-            />
-          </a>
-          <a
-            href="https://github.com/pankajktech/ai-summariser"
-            target="_blank"
-            rel="noreferrer"
-            className="bg-blue-100 hover:bg-blue-200 text-xl text-black flex items-center gap-2 font-bold p-1 rounded-full"
-          >
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              className="h-8 w-8"
-            />
-          </a>
-        </div>
+
+        <a
+          href="https://github.com/pankajktech/ai-summariser"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:translate-x-1 transition-all duration-300"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            height="35"
+            width="35"
+            alt="github"
+            title="github"
+          />
+        </a>
       </nav>
 
       <h1 className="head_text">
