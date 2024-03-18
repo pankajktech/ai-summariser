@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { useLazyGetSummaryQuery } from "../Services/article";
+import Loader from "./Loader";
 
 const Summarize = () => {
   const [article, setArticle] = useState({
@@ -72,7 +73,7 @@ const Summarize = () => {
         <div className="flex max-w-full justify-center items-center my-10">
           {isFetching ? (
             <div className="flex justify-center items-center">
-              <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-gray-900"></div>
+              <Loader />
             </div>
           ) : error ? (
             <p className="font-inter font-bold text-black text-center">
